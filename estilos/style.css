@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    height: 100vh;
+
+    overflow-x: hidden;
+}
+
+
+div.bg{
+    width: 600px;
+    height: 700px;
+    background-color: rgb(118, 240, 240);
+    position: absolute;
+    top: -40px;
+    right: -20px;
+
+    border-radius: 30px;
+    transform: rotateZ(-24deg);
+    z-index: -1;
+    
+
+
+}
