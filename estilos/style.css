@@ -232,7 +232,7 @@ div.cabecalhoP div.tempo p.ano{
     padding: 60px 54px;
     border: 1px solid #cfcfcf;
     border-radius: 3px;
-    height: 100% !important;
+    height: 740px !important;
 
 }
 
@@ -240,7 +240,7 @@ div.cabecalhoP div.tempo p.ano{
     margin-bottom: 25px;
 }
 
-.month ,.barra{
+.month , .barra{
     font-size: 1.2em;
     font-family: 'Nova';
     letter-spacing: 1px;
@@ -264,6 +264,11 @@ div.cabecalhoP div.tempo p.ano{
     font-size: 0.5em;
 }
 
+#tabelas .tabela .mostPop{
+    background-color: #00a37d;
+    display: none;
+}
+
 div.linha{
     background-color: #01B289;
     width: 100%;
@@ -275,6 +280,10 @@ div.linha{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.9em;
 
+}
+
+#tabelas .tabela .containerLIST{
+    height: 320px;
 }
 
 #tabelas .tabela ul li{
@@ -314,7 +323,8 @@ div.linha{
     padding: 23px 0px;
     border-radius: 4px;
     margin: auto;
-    align-self: flex-end;
+    margin-top: 48px;
+    
 }
 
 .startfree:hover{
@@ -342,6 +352,8 @@ div.linha{
 
 
 
+
+/* box-shadow: rgba(2, 4, 69, 0.05) 0px 0px 60px 0px ;*/
 
 
 
