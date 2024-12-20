@@ -240,7 +240,7 @@ div.cabecalhoP div.tempo p.ano{
     margin-bottom: 25px;
 }
 
-.month , .barra{
+.month, .barra{
     font-size: 1.2em;
     font-family: 'Nova';
     letter-spacing: 1px;
@@ -258,7 +258,6 @@ div.cabecalhoP div.tempo p.ano{
 
 .sifrao{
     font-weight: 200;
-    font-family: 'Nova';
     margin-right: 7px;
     
     font-size: 0.5em;
@@ -347,10 +346,81 @@ div.linha{
 }
 
 .SuperCharge .list{
+    font-family: 'Nova';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
-    padding: 10px;
-    box-shadow: rgba(2, 4, 69, 0.05) 0px 0px 60px 0px ;
+    padding: 50px;
+    box-shadow: rgba(2, 4, 69, 0.05) 0px 0px 60px 0px ;   
+    border-radius: 6px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    
 
+}
+
+.ListAdd{
+    margin-top: 75px;
+}
+
+.free{
+    font-size: 1.7em;
+    font-family: 'Nova2';
+    font-weight: bold;
+    letter-spacing: 1.5px;
+   
+    
+}
+
+.preco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NumberPreco{
+    font-size: 2.3em;
+    font-family: 'Nova2';
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    
+}
+
+
+.preco .sifrao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    margin-right: 2px;
+}
+
+.preco .barra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-right: -0.5px;
+    
+}
+
+
+
+.Temp{
+    font-size: 0.8em;
+    font-family: 'Nova2';
+    text-transform: uppercase;
+    
+}
+
+.learn{
+    
+    
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size:0.9em ;
+    font-family: 'Nova2';
+    color: #00B289;
 }
 
 
