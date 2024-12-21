@@ -24,6 +24,15 @@
   }
 
   @font-face {
+    font-family: 'Nova3'; /* Nome da fonte (definido por você) */
+    src: url('../fonts/proxima-nova/Demo_Fonts/fonte3.otf') format('truetype'); /* Caminho e formato */
+    font-weight: normal; /* Opcional: defina pesos */
+    font-style: normal; /* Opcional: defina estilo */
+  }
+
+
+
+  @font-face {
     font-family: 'amerigo'; /* Nome da fonte (definido por você) */
     src: url('../fonts/amerigo/amerigo-bt-roman.ttf') format('truetype'); /* Caminho e formato */
     font-weight: normal; /* Opcional: defina pesos */
@@ -59,7 +68,7 @@ div.bg{
     right: -189px;
     border-radius: 30px;
     transform: rotateZ(-33deg);
-    z-index: -1;
+    z-index: -2;
 
     
 
@@ -76,11 +85,6 @@ header{
     padding: 40px;
 }
 
-img{
-    
-   
-   
-}
 
 ul{
     text-decoration: none;
@@ -160,13 +164,19 @@ section{
     justify-content: space-between;
     align-items: stretch;
     margin-bottom: 45px;
+    z-index: 1;
+    
+    
     
 }
 
 #tabelas div.tabela{
+    
     width: 430px;
     height: 500px;
     background-color: white;
+  
+    
 }
 
 section.TABLEprecos div#tabelas div.tabela ul{
@@ -264,8 +274,25 @@ div.cabecalhoP div.tempo p.ano{
 }
 
 #tabelas .tabela .mostPop{
-    background-color: #00a37d;
-    display: none;
+    background-color: #01B289;
+    font-family: 'nova3';
+    font-size: 1.3em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+    position: absolute;
+    bottom: 240px;
+    left: 740px;
+    right: 0px;
+    transform: rotate(40deg);
+    border-radius: 400px 0px;
+    
+    
+    
+
+    
 }
 
 div.linha{
@@ -414,15 +441,31 @@ div.linha{
 
 .learn{
     
-    
+    margin-top: 8px;
     display: block;
     width: 100%;
-    text-transform: uppercase;
+    letter-spacing: 0.05em;
     font-size:0.9em ;
-    font-family: 'Nova2';
-    color: #00B289;
+    font-family: 'Nova3';
+    color: #00B289 ;
+    cursor: pointer;
 }
 
+
+.learn::after{
+    font-family: 'Material Icons';
+    content: 'keyboard_arrow_right';
+    font-size: 1.4em;
+    font-weight: 100;
+    position: absolute;
+    transform: translate(-2px, -2px);
+    transition: transform 0.2s ease-in-out
+}
+
+.learn:hover::after {
+    transform: translate(5px, -2px); 
+    transition: transform 0.3s ease-in-out;
+}
 
 
 
