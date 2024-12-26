@@ -3,9 +3,7 @@
     margin: 0px;
 }
 
-p{
-    user-select: none;
-}
+
 
 div.pai{
     display: flex;
@@ -14,6 +12,7 @@ div.pai{
     height: 0vh;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 }
 
@@ -27,6 +26,7 @@ div.pai{
     padding: 4px;
     cursor: pointer;
     transition: background 0.5s ease;
+
   
     user-select: none;
     
@@ -43,6 +43,7 @@ div.pai{
     transition: transform 1s ease;
     transition: background 0.5s ease;
     user-select: none;
+    cursor: pointer;
     
   
      
@@ -60,12 +61,13 @@ div.pai{
     transform: translateX(-2px);
     transition: transform 0.5s ease;
     display: inline-block;
+    cursor: pointer;
 }
 
 #dentro.ativo{
     transform: translateX(40px);
     transition: transform 0.5s ease;
-
+    cursor: pointer;
     
     
 
