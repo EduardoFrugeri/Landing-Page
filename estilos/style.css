@@ -239,10 +239,12 @@ div.cabecalhoP div.tempo p.ano{
 }
 
 .tabela{
+    position: relative;
     padding: 60px 54px;
     border: 1px solid #cfcfcf;
     border-radius: 3px;
     height: 740px !important;
+    overflow: hidden;
 
 }
 
@@ -283,16 +285,9 @@ div.cabecalhoP div.tempo p.ano{
     text-align: center;
     padding: 10px 100px;
     position: absolute;
-    bottom: 240px;
-    left: 740px;
-    right: 0px;
-    transform: rotate(40deg);
-    border-radius: 400px 0px;
-    
-    
-    
-
-    
+    top: 60px;
+    right: -103px;
+    transform: rotate(45deg);
 }
 
 div.linha{
