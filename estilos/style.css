@@ -335,7 +335,6 @@ div.linha{
         transform: translateY(4px);
         margin-bottom: 40px;
 
-   
 
 }
 
@@ -392,6 +391,7 @@ div.linha{
 
 .ListAdd{
     margin-top: 75px;
+    margin-bottom: 90px;
 }
 
 .free{
@@ -469,6 +469,54 @@ div.linha{
     transform: translate(5px, -2px); 
     transition: transform 0.3s ease-in-out;
 }
+
+.yourbuss{
+    display: flex;
+    background-color: #edf7ffe1;
+    justify-content: space-between;
+    padding: 111px 52px;
+    margin-bottom: 200px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.yourbuss .startfree2{
+    padding: 0px 50px;
+    background-color: #00AE86;
+    cursor: pointer;
+    height: 65px;
+    margin: 0px;
+    text-align: center;
+    border: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'nova2';
+    font-weight: bold;
+    font-size: 0.92em;
+    border: 1px solid #00B289;
+    border-radius: 4px;
+
+}
+
+.yourbuss .startfree2:hover{
+    background-color: #00B88E;
+   
+}
+
+.txtp{
+    font-family: 'amerigo';
+    font-size: 2.5em;
+}
+
+#txtp{
+    margin-bottom: 5px;
+}
+
+.txtverde{
+    color: #00B289;
+}
+
+
 
 
 
