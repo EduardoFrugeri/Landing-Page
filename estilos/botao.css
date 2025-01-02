@@ -27,7 +27,7 @@ div.pai{
     cursor: pointer;
     transition: background 0.5s ease;
 
-  
+    cursor: pointer;
     user-select: none;
     
 
@@ -39,7 +39,7 @@ div.pai{
 #fora.ativo{
     display: flex;
     align-items: center;
-    background-color: #1fa11fda;
+
     transition: transform 1s ease;
     transition: background 0.5s ease;
     user-select: none;
@@ -65,7 +65,7 @@ div.pai{
 }
 
 #dentro.ativo{
-    transform: translateX(40px);
+    transform: translateX(18px);
     transition: transform 0.5s ease;
     cursor: pointer;
     
