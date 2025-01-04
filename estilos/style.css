@@ -625,6 +625,7 @@ footer .titlefooter{
 footer .containerfooter{
     font-family: 'novalight';
     line-height: 40px;
+    max-width: 400px;
     font-size: 1.1em;
     letter-spacing: 0.6px;
     margin-bottom: 35px;
@@ -656,6 +657,28 @@ footer li:hover{
 .seta img{
     width: 13px;
 }
+
+footer #templates{
+    margin-bottom: 5px;
+}
+
+
+
+. {
+    display: inline-block;
+    overflow: hidden;
+    height: 0;
+    animation: revealDown 1s ease ;
+  }
+  
+  @keyframes revealDown {
+    from {
+      height: 0;
+    }
+    to {
+      height: 5em; /* Ajuste conforme o tamanho do texto */
+    }
+  }
 
 
 
